@@ -1,0 +1,79 @@
+*{
+font-family:sans-serif;
+margin:0;
+padding:0;
+text-decoration:none;
+box-sizing: border-box;
+
+}
+body{
+
+background-color:grey;
+background-image:url("https://t3.ftcdn.net/jpg/01/22/71/96/360_F_122719641_V0yw2cAOrfxsON3HeWi2Sf4iVxhv27QO.jpg" );
+background-repeat:no-repeat;
+background-size:cover;
+
+ }
+form{
+background:url("https://www.radzen.com/documentation/login-background.png");
+width:350px;
+height:450px;
+padding: 100px 75px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+h1
+{
+text-align:center;
+margin-bottom:55px;
+color: white;
+font-size:40px;
+}
+.textBoxdiv
+{
+border-bottom:2px solid white;
+position: relative;
+margin: 50px 0;
+}
+.textBoxdiv input
+{
+background: none;
+border: none;
+outline:none;
+width:100%;
+color: white;
+height:30px;
+font-size:20px;
+}
+.loginBtn
+{
+height: 50px;
+width: 83%;
+border:none;
+outline:none;
+background:black; 
+background-size:200%;
+color:white;
+font-size:16px;
+} 
+.loginBtn:hover
+{
+background-position:right;
+font-size:20px;
+}
+.signup
+{
+color:white;
+margin-top:50px;
+text-align:left;
+}
+.signup a
+{
+color:white;
+}
+
+ 
+
+
